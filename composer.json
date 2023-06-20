@@ -1,0 +1,21 @@
+{
+    "name": "sukanta/fake-names",
+    "description": "The Fake Name Generator is a tool or service that generates realistic, fictional identities or names. It is often used for various purposes, including testing, prototyping, anonymity, and data privacy.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sukanta\\FakeNames\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sukanta Purkayastha",
+            "email": "spurkayastha83@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "fzaninotto/faker": "^1.9@dev"
+    }
+}
